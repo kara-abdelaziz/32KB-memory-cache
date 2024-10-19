@@ -2,7 +2,7 @@
 This project consists of recreating a Cache Memory on the [Logisim](http://www.cburch.com/logisim/) simulation software. 
 Thanks to Logisim, it allows an educational and detailed way to understand the internal functioning of a cache memory, 
 and helps understanding its uses as the temporary and fast memory data between the processor and the RAM.
-![Global representation of the architecture using cache](global_architecture.png)
+![Global representation of the architecture using cache](images/global_architecture.png)
 
 # Technical specification
 - The cache is of type 2-ways set associative, with write-back write policy and LRU (Least Recently Used) replacement policy.
@@ -13,9 +13,10 @@ and helps understanding its uses as the temporary and fast memory data between t
 More information is available in the project proposal [PDF](https://github.com/kara-abdelaziz/Cache-Memory-in-logisim/blob/main/side-project.pdf).
 
 # Structural properties
-![cache structure](https://github.com/kara-abdelaziz/Cache-Memory-in-logisim/blob/main/cache_structure.png)
+![cache structure](images/Cache_structure.png)
 
 # Logisim implementation
-![cache logsim implementation](https://github.com/kara-abdelaziz/Cache-Memory-in-logisim/blob/main/Cache%20Memory%20screenshot.png)
+Maybe you will need to [download](https://github.com/kara-abdelaziz/Cache-Memory-in-logisim/blob/main/images/Cache_logisim_screenshot.png) the image to be able to zoom.
+![cache logsim implementation](images/Cache_logisim_screenshot.png)
 
 

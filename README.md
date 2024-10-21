@@ -19,4 +19,8 @@ More information is available in the project proposal [PDF](https://github.com/k
 Maybe you will need to [download](https://github.com/kara-abdelaziz/Cache-Memory-in-logisim/blob/main/images/Cache_logisim_screenshot.png) the image to be able to zoom.
 ![cache logsim implementation](images/Cache_logisim_screenshot.png)
 
+# FSM controllers
+Three embedded controllers were used to ensure some sequential jobs needed for the proper working of the cache. The 3 controllers can be seen in the Logisim implementation image above. They are as follows, **Cache Controller**, and its finite state machine is described in the image below. And the **Line Loader** and the **Line Strorer** which their finite state machine is described in the second image below. Those last 2 controllers share practically the same finite state machine with small differences in their outputs.
+
+
 

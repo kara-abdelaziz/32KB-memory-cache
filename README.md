@@ -20,10 +20,12 @@ Maybe you will need to [download](https://github.com/kara-abdelaziz/Cache-Memory
 ![cache logsim implementation](images/Cache_logisim_screenshot.png)
 
 # FSM controllers
-Three embedded controllers were used to ensure some sequential jobs needed for the proper working of the cache. The 3 controllers can be seen in the Logisim implementation image above. They are as follows, **Cache Controller** and its finite state machine, it is shown in the image below.
+Three embedded controllers were used to ensure some sequential jobs needed for the proper working of the cache. The 3 controllers can be seen in the Logisim implementation image above. They are as follows, **Cache Controller** and its finite state machine, it is shown in the image below. The study of the finite state machine is registred in this [file](FSM study/Controller SFM study.pdf). 
 ![Cache controller](images/Cache_Controller_SM.png)
-And the **Line Loader** and the **Line Strorer** which their finite state machine is described in the image below, they are responsible for loading a line from memory to the cache, and storing a line from cache to memory respectively. Those two controllers share practically the same finite state machine with small differences in their outputs.
+And the **Line Loader** and the **Line Strorer** which their finite state machine is described in the image below, they are responsible for loading a line from memory to the cache, and storing a line from cache to memory respectively. Those two controllers share practically the same finite state machine with small differences in their outputs. The study of their finite state machine is registred in this [file](FSM study/Load-Store SFM study.pdf). 
 ![Line loader and storer controller](images/Line_Loader_Strorer_FSM.png)
+
+
 
 
 

@@ -26,6 +26,20 @@ Three embedded controllers were used to ensure some sequential jobs needed for t
 And the **Line Loader** and the **Line Strorer** which their finite state machine is described in the image below, they are responsible for loading a line from memory to the cache, and storing a line from cache to memory respectively. Those two controllers share practically the same finite state machine with small differences in their outputs. The study of their finite state machine is registred in this [file](https://github.com/kara-abdelaziz/Cache-Memory-in-logisim/blob/main/FSM%20study/Load-Store%20SFM%20study.pdf). 
 ![Line loader and storer controller](images/Line_Loader_Strorer_FSM.png)
 
+# Files and directories description
+1. Cache.circ : The main Logisim file, containing the whole circuit in one file.
+2. side-project.pdf : This project was initially a side-project in a college computer architecture course. This file contains many details related to the design of the Cache.
+3. README.md : This ream me text.
+4. some addresses to test.txt : A text file containing some addresses tested with the Cache
+5. side-project (pdf latex file) : side-project.pdf was generated using [Latex](https://en.wikipedia.org/wiki/LaTeX) text editor, all the generated files are stored in this directory.
+6. FSM study : This directory contains many resources related to the study of the finite state machines mentioned above. Files related to the study of the two FSM are stored in this directory.
+7. FSM study/Controller SFM study.pdf : A PDF containing the study process when designing the Cache Controller circuit.
+8. FSM study/Load-Store SFM study.pdf : A PDF containing the study process when designing the Line Loader and the Line Storer circuits. They are practically similar, except for some minor changes in their outputs.
+9. images : A directory containing all the images used in this README text.
+   
+
+
+
 
 
 

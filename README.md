@@ -36,6 +36,12 @@ And the **Line Loader** and the **Line Strorer** which their finite state machin
 7. FSM study/Controller SFM study.pdf : A PDF containing the study process when designing the Cache Controller circuit.
 8. FSM study/Load-Store SFM study.pdf : A PDF containing the study process when designing the Line Loader and the Line Storer circuits. They are practically similar, except for some minor changes in their outputs.
 9. images : A directory containing all the images used in this README text.
+
+Links
+
+My personal website with many other projects : [el-kalam.com](https://www.el-kalam.com/)
+    
+
    
 
 
